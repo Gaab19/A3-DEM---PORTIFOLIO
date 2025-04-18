@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Wrap: Wrap</h1>
+    <section class="flex nowrap">
+        <div class="itens">EsteWrapÉGrande1</div>
+        <div class="itens">EsteWrapÉGrande2</div>
+        <div class="itens">EsteWrapÉGrande3</div>
+        <div class="itens">EsteWrapÉGrande4</div>
+
+    </section>
+
+    <h1>Wrap: nowrap</h1>
+    <section class="flex wrap">
+        <div class="itens">EsteWrapÉGrande1</div>
+        <div class="itens">EsteWrapÉGrande2</div>
+        <div class="itens">EsteWrapÉGrande3</div>
+        <div class="itens">EsteWrapÉGrande4</div>
+    </section>
+
+    <h1>Wrap: wrap-reverse</h1>
+    <section class="flex wrap-reverse">
+        <div class="itens">EsteWrapÉGrande1</div>
+        <div class="itens">EsteWrapÉGrande2</div>
+        <div class="itens">EsteWrapÉGrande3</div>
+        <div class="itens">EsteWrapÉGrande4</div>
+    </section>
+</body>
+</html>
+
+<style>
+    h1 {text-align: center;}
+    .itens {
+        border: 1px solid black;
+        flex: 1;
+        text-align: center;
+    }
+    .flex{
+        display: flex;
+        max-width: 400px;
+        margin: 0 auto;
+        border: 1px solid black;
+    }
+    .nowrap {
+        flex-wrap: wrap;
+
+    }
+
+    .wrap-reverse {
+        flex-wrap: wrap-reverse;
+    }
+</style>

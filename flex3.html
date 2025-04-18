@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Justify-content: flex-start - rows</h1>
+    <section class="flex flex-start">
+        <div class="itens">Item1</div>
+        <div class="itens">Item2</div>
+        <div class="itens">Item3</div>
+        <div class="itens">Item4</div>
+    </section>
+
+    <h1>Justify-content: flex-end - rows</h1>
+    <section class="flex flex-end">
+        <div class="itens">Item1</div>
+        <div class="itens">Item2</div>
+        <div class="itens">Item3</div>
+        <div class="itens">Item4</div>
+    </section>    
+
+    <h1>Justify-content: center - rows</h1>
+    <section class="flex flex-center">
+        <div class="itens">Item1</div>
+        <div class="itens">Item2</div>
+        <div class="itens">Item3</div>
+        <div class="itens">Item4</div>
+    </section>  
+    
+    <h1>Justify-content: space-between - rows</h1>
+    <section class="flex space-between">
+        <div class="itens">Item1</div>
+        <div class="itens">Item2</div>
+        <div class="itens">Item3</div>
+        <div class="itens">Item4</div>
+    </section>  
+
+    <h1>Justify-content: space-around - rows</h1>
+    <section class="flex space-around">
+        <div class="itens">Item1</div>
+        <div class="itens">Item2</div>
+        <div class="itens">Item3</div>
+        <div class="itens">Item4</div>
+    </section>  
+    
+    <h1>Justify-content: flex-start - column</h1>
+    <section class="flex column flex-start">
+        <div class="itens">Item1</div>
+        <div class="itens">Item2</div>
+        <div class="itens">Item3</div>
+        <div class="itens">Item4</div>
+    </section>
+
+    <h1>Justify-content: flex-end - column</h1>
+    <section class="flex column flex-end">
+        <div class="itens">Item1</div>
+        <div class="itens">Item2</div>
+        <div class="itens">Item3</div>
+        <div class="itens">Item4</div>
+    </section>    
+
+    <h1>Justify-content: center - column</h1>
+    <section class="flex column center">
+        <div class="itens">Item1</div>
+        <div class="itens">Item2</div>
+        <div class="itens">Item3</div>
+        <div class="itens">Item4</div>
+    </section>  
+    
+    <h1>Justify-content: space-between - column</h1>
+    <section class="flex column space-between">
+        <div class="itens">Item1</div>
+        <div class="itens">Item2</div>
+        <div class="itens">Item3</div>
+        <div class="itens">Item4</div>
+    </section>  
+
+    <h1>Justify-content: space-around - column</h1>
+    <section class="flex column space-around">
+        <div class="itens">Item1</div>
+        <div class="itens">Item2</div>
+        <div class="itens">Item3</div>
+        <div class="itens">Item4</div>
+    </section>  
+</body>
+</html>
+
+<style>
+    h1 {text-align: center;}
+    .itens {
+        border: 1px solid black;
+        text-align: center;
+    }
+    .flex {
+        display: flex;
+        max-width: 400px;
+        margin: 0 auto;
+        border: 1px solid black;
+    }
+
+    .flex-start {
+        justify-content: flex-start;
+    }
+    .flex-end {
+        justify-content: flex-end;
+    }
+    .center {
+        justify-content: center;
+    }
+    .space-between {
+        justify-content: space-between;
+    }
+    .space-around {
+        justify-content: space-around;
+    }
+    .column {
+        flex-direction: column;
+        height: 200px;
+    }
+</style>
